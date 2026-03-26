@@ -16,13 +16,13 @@ Pod::Spec.new do |s|
   s.version      = '3.7.7'
   s.summary      = 'ARC and GCD Compatible Reachability Class for iOS and OS X. Drop in replacement for Apple Reachability.'
 
-  s.homepage     = 'https://github.com/tonymillion/Reachability'
+  s.homepage     = 'https://github.com/jiangtaoxu/Reachability'
   s.authors      = { 'Tony Million' => 'tonymillion@gmail.com' }
   s.social_media_url   = "https://x.com/tonymillion"
 
   s.license      = { :type => 'BSD', :text => license }
 
-  s.source       = { :git => 'https://github.com/tonymillion/Reachability.git', :tag => "v#{s.version}" }
+  s.source       = { :git => 'https://github.com/jiangtaoxu/Reachability.git', :tag => "v#{s.version}" }
   s.source_files = 'Reachability.{h,m}'
   s.resource_bundles = {"Reachability_Privacy" => ["Framework/PrivacyInfo.xcprivacy"]}
   s.framework    = 'SystemConfiguration'
